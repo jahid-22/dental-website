@@ -1,0 +1,60 @@
+html
+{
+    scroll-behavior: smooth;
+}
+#home
+{
+    height: 100vh;
+}
+.hero-right-side
+{
+    background: url(../images/home-right.jpg);
+    background-position: center center;
+    background-size: cover;
+    background: linear-gradient(to top, #E8FCF6, #e9eceb );
+    height: 89vh;
+}
+
+.btn-color
+{
+    background: #09eba7;
+}
+
+/* HOME SECTION END HERE */
+/* TREATMENT SECTION START FROM HERE */
+#Treatment
+{
+    height: 100vh;
+    color: rgb(114, 111, 111);
+}
+#Treatment .first .col-lg-3:nth-child(odd)
+{
+    box-shadow: 0px 0px 10px ;
+    border-radius: 10px;
+}
+
+#Treatment .seconde .col-lg-3:nth-child(even)
+{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px ;
+}
+/* TREATMENT SECTION ENDHERE */
+#about
+{
+    height: 100vh;
+    background: #c9f1e5;
+}
+
+/* CONTACT START FROM HERE */
+#contact
+{
+    height: 100vh;
+}
+#contact .form input
+{
+    width: 450px;
+    border:  none;
+    outline: none;
+    border-bottom: 1px solid #09eba7;
+    margin-bottom: 1rem;
+}
